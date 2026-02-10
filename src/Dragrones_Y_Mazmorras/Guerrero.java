@@ -1,5 +1,5 @@
 package Dragrones_Y_Mazmorras;
 
-public class Guerrero {
+public class Guerrero { extends Personaje {
 
 }
