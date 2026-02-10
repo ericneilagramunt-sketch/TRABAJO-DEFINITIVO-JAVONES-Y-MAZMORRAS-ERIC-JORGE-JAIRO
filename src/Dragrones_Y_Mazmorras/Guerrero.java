@@ -26,3 +26,7 @@ public void dejarDeProteger() {
         System.out.println(nombre + " no está protegiendo a nadie");
     }
 }
+                       // Devuelve el personaje que está protegiendo
+public Personaje estaProtegiendo() {
+return companeroProtegido;
+}
