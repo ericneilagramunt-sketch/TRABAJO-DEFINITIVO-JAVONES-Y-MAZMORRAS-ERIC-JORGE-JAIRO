@@ -9,8 +9,20 @@ super(nombre, nivel, puntosVida);
 this.companeroProtegido = null; // Al inicio no protege a nadie
 }
 public void proteger(Personaje companero) {
-// Si ya está protegiendo a alguien, primero deja de protegerlo
-if (companeroProtegido != null) {
-dejarDeProteger();
+    if (companeroProtegido != null) {
+        dejarDeProteger();
+    }
+    companeroProtegido = companero;
+    companero.setProtegido(true);
+    System.out.println(nombre + " ahora protege a " + companero.getNombre());
 }
+
+public void dejarDeProteger() {
+    if (companeroProtegido != null) {
+        System.out.println(nombre + " deja de proteger a " + companeroProtegido.getNombre());
+        companeroProtegido.setProtegido(false);
+        companeroProtegido = null;
+    } else {
+        System.out.println(nombre + " no está protegiendo a nadie");
+    }
 }
