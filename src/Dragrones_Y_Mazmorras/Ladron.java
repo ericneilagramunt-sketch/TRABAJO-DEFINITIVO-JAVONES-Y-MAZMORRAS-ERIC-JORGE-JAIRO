@@ -14,4 +14,13 @@ System.out.println(nombre + " roba sin ser visto gracias a su invisibilidad!");
 System.out.println(nombre + " intenta robar pero puede ser detectado!");
 }
 }
+  // Cambia el estado de invisibilidad
+public void hacerseInvisible() {
+invisible = !invisible; // Cambia de true a false o de false a true
+if (invisible) {
+System.out.println(nombre + " se vuelve invisible!");
+} else {
+System.out.println(nombre + " vuelve a ser visible");
+}
+}
 }
