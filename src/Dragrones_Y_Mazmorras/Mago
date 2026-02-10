@@ -17,7 +17,25 @@ public class Mago extends Personaje {
             System.out.println("¡Hechizo lanzado! Maná restante: " + mana);
         } else {
             System.out.println("¡No hay maná suficiente! Maná actual: " + mana);
+
         }
     }
-
+ // Recarga el maná del mago
+    public void recargarMana(int cantidad) {
+        mana = mana + cantidad;
+        System.out.println(nombre + " recarga " + cantidad + " de maná. Maná actual: " + mana);
+    }
+    
+    // Devuelve el maná actual
+    public int getMana() {
+        return mana;
+    }
+    
+    // Sobrescribe el método mostrarInfo para incluir el maná
+   
+    public void mostrarInfo() {
+        super.mostrarInfo();  // Llama al método de la clase padre
+        System.out.println("Maná: " + mana);
+        System.out.println("======================");
+    }
     }
