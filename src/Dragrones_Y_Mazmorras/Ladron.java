@@ -1,5 +1,5 @@
 package Dragrones_Y_Mazmorras;
 
-public class Ladron {
+public class Ladron extends Personaje{
 
 }
