@@ -23,4 +23,7 @@ System.out.println(nombre + " se vuelve invisible!");
 System.out.println(nombre + " vuelve a ser visible");
 }
 }
+// Devuelve si está invisible
+public boolean estaInvisible() {
+return invisible;
 }
