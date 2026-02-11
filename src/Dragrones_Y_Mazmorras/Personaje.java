@@ -54,3 +54,8 @@ this.protegido = protegido;
 public boolean estaProtegido() {
 return protegido;
 }
+
+public String getNombre() {
+return nombre;
+}
+}
