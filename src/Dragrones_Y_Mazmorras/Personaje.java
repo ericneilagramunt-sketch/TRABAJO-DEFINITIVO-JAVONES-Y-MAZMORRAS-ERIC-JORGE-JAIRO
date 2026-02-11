@@ -39,6 +39,8 @@ puntosVida = puntosVida + cantidad;
 System.out.println(nombre + " se cura " + cantidad + " puntos. Vida actual: " + puntosVida);
 }
 
-
+public inventario getInventario() {
+return inventario;
+}
   
   
