@@ -12,4 +12,13 @@ Public class Personaje{
   this.protegido = false;
   this.inventario = new inventario();
 
+  public void mostrarInfo() {
+  System.out.printl("======================");
+  System.out.println("Nombre:"+ nombre);
+  System.out.println("Nivel:"+ nivel);
+  System.out.println("Puntos de Vida:"+ puntosVida);
+  System.out.println("Protegido:"+(protegido ?"Si":"No"));
+  System.out.println("======================");
+  }
+    
   
