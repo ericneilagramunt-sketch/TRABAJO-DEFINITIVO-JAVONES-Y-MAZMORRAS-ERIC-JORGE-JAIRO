@@ -34,6 +34,11 @@ puntosVida = 0;
 System.out.println(nombre + " recibe " + cantidad + " de daño. Vida restante: " + puntosVida);
 }
 
-  
+public void curar(int cantidad) {
+puntosVida = puntosVida + cantidad;
+System.out.println(nombre + " se cura " + cantidad + " puntos. Vida actual: " + puntosVida);
+}
+
+
   
   
