@@ -42,5 +42,8 @@ System.out.println(nombre + " se cura " + cantidad + " puntos. Vida actual: " + 
 public inventario getInventario() {
 return inventario;
 }
-  
+
+public void agregarEquipamiento(equipamento equipamiento) {
+inventario.agregarEquipamiento(equipamiento);
+}
   
