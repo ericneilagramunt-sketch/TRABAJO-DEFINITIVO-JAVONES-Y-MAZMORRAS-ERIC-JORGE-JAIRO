@@ -1,3 +1,4 @@
+package Dragrones_Y_Mazmorras;
 public class equipamento {
 	 // Atributos (variables que pertenecen al objeto)
     private String nombre;  // Nombre del objeto
