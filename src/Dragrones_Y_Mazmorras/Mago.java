@@ -1,3 +1,4 @@
+package Dragrones_Y_Mazmorras;
 public class Mago extends Personaje {
     // Atributo adicional del Mago
     private int mana;
