@@ -46,4 +46,7 @@ return inventario;
 public void agregarEquipamiento(equipamento equipamiento) {
 inventario.agregarEquipamiento(equipamiento);
 }
-  
+
+public void setProtegido(boolean protegido) {
+this.protegido = protegido;
+}
