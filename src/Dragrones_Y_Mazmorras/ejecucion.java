@@ -7,7 +7,7 @@ public class ejecucion {
     System.out.println("BIENVENIDO A JAVONES Y MAZMORRAS");
     System.out.println("====================================\n");
     
-    // ===== CREANDO PERSONAJES =====
+   
     System.out.println("--- Creando personajes ---\n");
     
     // Crear un Mago
@@ -21,14 +21,11 @@ public class ejecucion {
     
     System.out.println("¡Personajes creados!\n");
 
-	// ===== MOSTRAR INFORMACIÓN =====
     System.out.println("--- Información de los personajes ---\n");
     mago.mostrarInfo();
     guerrero.mostrarInfo();
     ladron.mostrarInfo();
     
-    
-    // ===== AÑADIR EQUIPAMIENTO =====
     System.out.println("\n--- Añadiendo equipamiento ---\n");
     
     // Crear objetos de equipamiento
@@ -45,7 +42,6 @@ public class ejecucion {
     
     System.out.println();
 
-	 // ===== MOSTRAR INVENTARIOS =====
     System.out.println("--- Inventarios ---\n");
     System.out.println("Inventario de " + mago.getNombre() + ":");
     mago.getInventario().mostrarInventario();
@@ -55,28 +51,24 @@ public class ejecucion {
     guerrero.getInventario().mostrarInventario();
     System.out.println();
     
-    
-    // ===== HABILIDADES DEL MAGO =====
+
     System.out.println("--- Habilidades del Mago ---\n");
     mago.lanzarHechizo(20);  // Lanza un hechizo que cuesta 20 de maná
     mago.lanzarHechizo(40);  // Intenta lanzar otro hechizo
     mago.recargarMana(30);   // Recarga maná
     System.out.println();
     
-    
-    // ===== HABILIDADES DEL GUERRERO =====
     System.out.println("--- Habilidades del Guerrero ---\n");
     guerrero.proteger(mago);  // El guerrero protege al mago
     System.out.println();
     
-    
-    // ===== HABILIDADES DEL LADRÓN =====
+    //Mostramos la habilidades del ladron
     System.out.println("--- Habilidades del Ladrón ---\n");
     ladron.robar();           // Intenta robar visible
     ladron.hacerseInvisible(); // Se vuelve invisible
     ladron.robar();           // Roba invisible
     System.out.println();
-     // ===== MOSTRAR INVENTARIOS =====
+  
     System.out.println("--- Inventarios ---\n");
     System.out.println("Inventario de " + mago.getNombre() + ":");
     mago.getInventario().mostrarInventario();
@@ -87,7 +79,7 @@ public class ejecucion {
     System.out.println();
     
     
-    // ===== HABILIDADES DEL MAGO =====
+    // Mostramos la habilidades del mago
     System.out.println("--- Habilidades del Mago ---\n");
     mago.lanzarHechizo(20);  // Lanza un hechizo que cuesta 20 de maná
     mago.lanzarHechizo(40);  // Intenta lanzar otro hechizo
@@ -95,7 +87,7 @@ public class ejecucion {
     System.out.println();
     
     
-    // ===== HABILIDADES DEL GUERRERO =====
+    //  Mostramos la habilidades del guerrer
     System.out.println("--- Habilidades del Guerrero ---\n");
     guerrero.proteger(mago);  // El guerrero protege al mago
     System.out.println();
