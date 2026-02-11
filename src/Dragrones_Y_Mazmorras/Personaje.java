@@ -20,5 +20,14 @@ Public class Personaje{
   System.out.println("Protegido:"+(protegido ?"Si":"No"));
   System.out.println("======================");
   }
-    
+
+  Public void bajarVida(int candtidad){
+  if(protegido){
+  cantidad = cantidad/2;
+    System.out.println(nombre+"está protegido! El daño se reduce a"+ cantidad);
+  }
+  puntosVida = puntosVida - cantidad;
+  }
+
+  
   
