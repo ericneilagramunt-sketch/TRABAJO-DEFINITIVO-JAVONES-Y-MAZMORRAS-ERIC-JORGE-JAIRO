@@ -27,7 +27,13 @@ Public class Personaje{
     System.out.println(nombre+"está protegido! El daño se reduce a"+ cantidad);
   }
   puntosVida = puntosVida - cantidad;
-  }
 
+  if (puntosVida < 0) {
+puntosVida = 0;
+}
+System.out.println(nombre + " recibe " + cantidad + " de daño. Vida restante: " + puntosVida);
+}
+
+  
   
   
