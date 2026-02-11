@@ -50,3 +50,7 @@ inventario.agregarEquipamiento(equipamiento);
 public void setProtegido(boolean protegido) {
 this.protegido = protegido;
 }
+
+public boolean estaProtegido() {
+return protegido;
+}
