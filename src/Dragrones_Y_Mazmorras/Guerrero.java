@@ -30,7 +30,7 @@ public void dejarDeProteger() {
 public Personaje estaProtegiendo() {
 return companeroProtegido;
 }
-                       public void mostrarInfo() {
+public void mostrarInfo() {
     super.mostrarInfo();
     if (companeroProtegido != null) {
         System.out.println("Protegiendo a: " + companeroProtegido.getNombre());
