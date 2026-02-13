@@ -8,6 +8,7 @@ public class Mago extends Personaje {
     public Mago(String nombre, int nivel, int puntosVida, int mana) {
         super(nombre, nivel, puntosVida);  // Llama al constructor de Personaje
         this.mana = mana;
+    }
  // Método para lanzar un hechizo
     public void lanzarHechizo(int costeMana) {
         System.out.println(nombre + " intenta lanzar un hechizo...");
@@ -16,7 +17,8 @@ public class Mago extends Personaje {
         if (mana >= costeMana) {
             mana = mana - costeMana;
             System.out.println("¡Hechizo lanzado! Maná restante: " + mana);
-        } else {
+        } 
+        else {
             System.out.println("¡No hay maná suficiente! Maná actual: " + mana);
 
         }
