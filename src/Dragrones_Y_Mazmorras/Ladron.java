@@ -2,6 +2,7 @@ package Dragrones_Y_Mazmorras;
 
 public class Ladron extends Personaje{
 private boolean invisible;
+  
 public Ladron(String nombre, int nivel, int puntosVida) {
 super(nombre, nivel, puntosVida);
 this.invisible = false; // Al inicio no está invisible
@@ -26,4 +27,10 @@ System.out.println(nombre + " vuelve a ser visible");
 // Devuelve si está invisible
 public boolean estaInvisible() {
 return invisible;
+}
+ public void mostrarInfo() {
+        super.mostrarInfo();
+        System.out.println("Invisible: " + (invisible ? "Sí" : "No"));
+        System.out.println("======================");
+ }
 }
