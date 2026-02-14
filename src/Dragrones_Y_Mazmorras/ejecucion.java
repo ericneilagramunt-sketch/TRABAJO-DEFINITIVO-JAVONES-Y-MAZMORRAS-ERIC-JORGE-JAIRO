@@ -94,7 +94,15 @@ public class ejecucion {
     guerrero.proteger(ladron);    // Ahora protege al ladrón
     System.out.println();
 		
+     // mostramos el ESTADO FINAL
+    System.out.println("--- Estado final de los personajes ---\n");
+    mago.mostrarInfo();
+    guerrero.mostrarInfo();
+    ladron.mostrarInfo();
     
+    System.out.println("====================================");
+    System.out.println("FIN DE LA AVENTURA");
+    System.out.println("====================================");
 
 }
 }
