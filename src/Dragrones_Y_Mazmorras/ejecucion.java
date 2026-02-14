@@ -69,29 +69,19 @@ public class ejecucion {
     ladron.robar();           // Roba invisible
     System.out.println();
   
-    System.out.println("--- Inventarios ---\n");
-    System.out.println("Inventario de " + mago.getNombre() + ":");
-    mago.getInventario().mostrarInventario();
+	 
+    // COMBATE 
+    System.out.println("--- ¡Combate! ---\n");
+    
+    System.out.println("Un enemigo ataca al mago:");
+    mago.bajarVida(40);  // El daño se reduce porque está protegido
     System.out.println();
     
-    System.out.println("Inventario de " + guerrero.getNombre() + ":");
-    guerrero.getInventario().mostrarInventario();
+    System.out.println("Un enemigo ataca al ladrón:");
+    ladron.bajarVida(30);  // Recibe daño completo (no está protegido)
     System.out.println();
     
-    
-    // Mostramos la habilidades del mago
-    System.out.println("--- Habilidades del Mago ---\n");
-    mago.lanzarHechizo(20);  // Lanza un hechizo que cuesta 20 de maná
-    mago.lanzarHechizo(40);  // Intenta lanzar otro hechizo
-    mago.recargarMana(30);   // Recarga maná
-    System.out.println();
-    
-    
-    //  Mostramos la habilidades del guerrero
-    System.out.println("--- Habilidades del Guerrero ---\n");
-    guerrero.proteger(mago);  // El guerrero protege al mago
-    System.out.println();
-    
+
     
    
 		
