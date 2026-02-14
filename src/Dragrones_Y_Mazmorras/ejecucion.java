@@ -87,19 +87,20 @@ public class ejecucion {
     System.out.println();
     
     
-    //  Mostramos la habilidades del guerrer
+    //  Mostramos la habilidades del guerrero
     System.out.println("--- Habilidades del Guerrero ---\n");
     guerrero.proteger(mago);  // El guerrero protege al mago
     System.out.println();
     
     
-    // ===== HABILIDADES DEL LADRÓN =====
+    // Mostramos las habilidades del ladron
     System.out.println("--- Habilidades del Ladrón ---\n");
     ladron.robar();           // Intenta robar visible
     ladron.hacerseInvisible(); // Se vuelve invisible
     ladron.robar();           // Roba invisible
     System.out.println();
-    
+
+		
     
 
 }
