@@ -93,13 +93,7 @@ public class ejecucion {
     System.out.println();
     
     
-    // Mostramos las habilidades del ladron
-    System.out.println("--- Habilidades del Ladrón ---\n");
-    ladron.robar();           // Intenta robar visible
-    ladron.hacerseInvisible(); // Se vuelve invisible
-    ladron.robar();           // Roba invisible
-    System.out.println();
-
+   
 		
     
 
