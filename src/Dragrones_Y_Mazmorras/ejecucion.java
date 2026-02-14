@@ -87,7 +87,12 @@ public class ejecucion {
     mago.curar(20);
     ladron.curar(15);
     System.out.println();
-   
+
+	 // Cambiamos protección
+    System.out.println("--- Cambiando protección ---\n");
+    guerrero.dejarDeProteger();  // Deja de proteger al mago
+    guerrero.proteger(ladron);    // Ahora protege al ladrón
+    System.out.println();
 		
     
 
