@@ -82,7 +82,11 @@ public class ejecucion {
     System.out.println();
     
 
-    
+     // CURACIÓN
+    System.out.println("--- Curaciones ---\n");
+    mago.curar(20);
+    ladron.curar(15);
+    System.out.println();
    
 		
     
